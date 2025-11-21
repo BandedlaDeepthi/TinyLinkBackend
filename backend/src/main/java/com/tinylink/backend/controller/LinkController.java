@@ -25,7 +25,7 @@ import com.tinylink.backend.repo.LinkRepo;
 import com.tinylink.backend.service.LinkService;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin("https://tinylinkfrontend.onrender.com")
 public class LinkController {
     
     @Autowired
@@ -129,3 +129,4 @@ public class LinkController {
         return response;
     }
 }
+
