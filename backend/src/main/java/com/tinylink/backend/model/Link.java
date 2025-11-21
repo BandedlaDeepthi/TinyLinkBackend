@@ -14,7 +14,7 @@
 		@Id
 		private String code;
 		
-		@Column(nullable = false)
+		@Column(nullable = false , columnDefinition = "text")
 		private String url;
 		
 		private int clicks=0;
@@ -22,3 +22,4 @@
 		private LocalDateTime createdAt=LocalDateTime.now();
 		
 	}
+
